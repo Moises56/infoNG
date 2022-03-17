@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}	
+
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.navbar-nav li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.navbar-nav li a{
+    transition: .3s;
+    color: #fff;
+}
+
+.navbar-nav li a:hover{
+    color: #d22938;
+}
+
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #d22938;
+}

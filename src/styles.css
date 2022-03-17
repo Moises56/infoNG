@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import url('/assets/Poppins/Poppins-Bold.ttf'); */
+
+@font-face {
+    font-family: "titulos";
+    src: url("/assets/fonts/Poppins/Poppins-Black.ttf");
+
+  } 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/assets/img1/crypto1-min.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'titulos';
+    font-weight: 600;
+    font-size: 16px;
+}
