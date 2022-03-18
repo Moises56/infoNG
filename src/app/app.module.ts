@@ -9,6 +9,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SectionComponent } from './components/section/section.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TeamComponent } from './components/team/team.component';
+import { ClientComponent } from './components/client/client.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarComponent,
     HeaderComponent,
     SectionComponent,
-    FooterComponent
+    FooterComponent,
+    TeamComponent,
+    ClientComponent
   ],
   imports: [
     BrowserModule,
