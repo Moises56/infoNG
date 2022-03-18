@@ -1,0 +1,12 @@
+.yeo-client a {
+    display: inline-block;
+    margin-right: 3.5rem;
+}
+
+.yeo-client a:last-child {
+    margin: 0;
+}
+
+.yeo-client img {
+    height: 34px;
+}
