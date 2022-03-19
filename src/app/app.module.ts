@@ -11,6 +11,10 @@ import { SectionComponent } from './components/section/section.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TeamComponent } from './components/team/team.component';
 import { ClientComponent } from './components/client/client.component';
+import { ServicesComponent } from './components/services/services.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProcessComponent } from './components/process/process.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { ClientComponent } from './components/client/client.component';
     SectionComponent,
     FooterComponent,
     TeamComponent,
-    ClientComponent
+    ClientComponent,
+    ServicesComponent,
+    CarouselComponent,
+    ContactComponent,
+    ProcessComponent
   ],
   imports: [
     BrowserModule,
