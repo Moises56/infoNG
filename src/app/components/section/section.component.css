@@ -1,5 +1,5 @@
 .btn-hover:hover {
-    background: #ff96ad !important;
-    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad !important;
-    color: #030518 !important;
-  }
+  background: #ff96ad !important;
+  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad !important;
+  color: #030518 !important;
+}

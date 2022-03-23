@@ -2,10 +2,9 @@
 /* @import url('/assets/Poppins/Poppins-Bold.ttf'); */
 
 @font-face {
-    font-family: "titulos";
-    src: url("/assets/fonts/Poppins/Poppins-Black.ttf");
-
-  } 
+  font-family: "titulos";
+  src: url("/assets/fonts/Poppins/Poppins-Black.ttf");
+}
 
 /* *{
     box-sizing: border-box;
@@ -25,13 +24,19 @@ body{
 } */
 
 .btn-hover:hover {
-    background: #ff96ad !important;
-    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad !important;
-    color: #030518 !important;
-  }
+  background: #ff96ad !important;
+  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad !important;
+  color: #030518 !important;
+}
 
-  section {
-    padding: 120px 0 0 0;
-    background: #0B0D19 !important;
-    color: #fff;
+section {
+  padding: 120px 0 0 0;
+  background: transparent !important;
+  color: #fff;
+}
+
+body {
+  background-image: url("/assets/img/background.jpg") !important;
+  background-repeat: repeat-y !important;
+  background-attachment: fixed !important;
 }
