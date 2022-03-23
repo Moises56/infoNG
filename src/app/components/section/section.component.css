@@ -3,3 +3,9 @@
   box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad !important;
   color: #030518 !important;
 }
+
+.my-title{
+  margin-top: 6%;
+  font-size: 4vh;
+  color: #D39441!important;
+}

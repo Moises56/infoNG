@@ -40,3 +40,9 @@ body {
   background-repeat: repeat-y !important;
   background-attachment: fixed !important;
 }
+
+
+h1{
+  font-family: 'Cinzel Decorative', bold;
+  color: rgb(211, 148, 65) !important;
+}
