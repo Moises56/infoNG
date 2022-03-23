@@ -1349,7 +1349,7 @@ main {
     padding: 8px;
 }
 @media (min-width: 641px) {
-    .site-footer: :before {
+    .site-footer:before {
     top: -152px;
     left: calc(50% - 720px);
     width: 1440px;
